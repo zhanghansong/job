@@ -3,58 +3,38 @@ var Json = {
         {
             name:'思睿官网页面',
             date:'2015.7',
-            detail:'一款娱乐的小游戏，只要将每一关关卡中的所有黄色快变成蓝色块就完成了这个项目，每点击一个色块，这个方块的颜色会变换，并且，与它四边相邻的方块的颜色也会变换。',
+            detail:'这是第一次做前端时，交给我的任务，负责做公司的官网静态页面以及jquery交互效果。',
             image:['img/x1.png','img/x11.png','img/x12.png','img/x13.png'],
-            link:'暂时没有生成'
+            link:'http://www.sirithink.com/'
         },
         {
             name:'商城静态页面',
             date:'2015.9',
-            detail:'整个过程利用随机数组打乱所有牌的顺序，存储这个数组，游戏区域中每个方块所在的索引值就是这个随机数组的索引值。每两次点击 进行一次比较，因为用到css3的技术 ，所以最好用谷歌、火狐来玩耍。等级的选项是要增加随机数组的长度。',
+            detail:'在学习前端网页制作时，做的关于商城页面的实战项目，里面有很多可以学习的效果，比如用正则对登陆内容的格式进行验证，商城吸顶盒导航，二级导航等。',
             image:['img/x2.png','img/x21.png','img/x22.png','img/x23.png'],
             link:'暂时没有生成'
         },
         {
             name:'天气查询系统',
             date:'2016.4',
-            detail:'一款较老的小游戏，用了自己封装的tdn.js的库完成游戏的开发，为了贴近原版扫雷，添加了可以单击数字方格提示周围是否有雷的功能。',
+            detail:'利用百度天气提供的api，使用jsonp对数据进行跨域请求，可以查询实时天气，空气质量，相关天气指数等。',
             image:['img/x3.png','img/x31.png','img/x32.png','img/x33.png'],
-            link:'暂时没有生成'
+            link:'weather/index.html'
         },
         {
             name:'简易音乐、视频播放器',
             date:'2015.8',
-            detail:' 日历插件因为在工作中用的较多，所以对他比较感兴趣，利用这段时间自己捣鼓了一个。用面向对象的编程思路编写日历函数，设置了多个功能选项对日历进行不同的操作。',
+            detail:' 利用html5里新的api，制作了一个简易音乐播放器和视频播放器，可以随意控制播放时间，声音等',
             image:['img/x4.png','img/x4.png','img/x42.png','img/x43.png'],
-            link:'暂时没有生成'
+            link:'musicPlay/music.html'
+        },
+		{
+            name:'响应式旅游网站',
+            date:'2016.5',
+            detail:'根据pc端布局样式，利用媒体查询、百分比等布局方式制作出的响应式网站',
+            image:['img/x5.png','img/x51.png','img/x52.png','img/x53.png'],
+            link:'Responsive/index.html'
         }
         
-    ],
-    work: [
-        {
-            company:'北京悠途畅享国际旅行社有限公司',
-            job:'前端制作',
-            date:'2014年6月-2015年9月',
-            detail:'负责pc端，手机端页面的制作。负责完成页面交互效果的制作。与后端配合完成数据交互。',
-            logo:'images/icons/header1.png'
-        }
-    ],
-    myInfo:{
-        name:'张寒松',
-        slogan:'一年前端经验',
-        edu:'本科 阜阳师范学院',
-        time:'1年零2月',
-        sex:'1992年 男',
-        city:'北京',
-        phone:'15010028563',
-        mail:'649342195@qq.com',
-        work:'前端工程师，全职，北京，8K-10K',
-        work1:'前端工程师',
-        nature:'全职',
-        hopeCity:'北京',
-        money:'8K-10K',
-        head:'images/photo/head.jpg',
-        ps:''
-    }
-
+    ]
 };

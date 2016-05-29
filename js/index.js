@@ -27,7 +27,7 @@ window.onload=function(){
 			aLi2[0].getElementsByTagName('span')[0].innerHTML = Json.project[this.index].name;
             aLi2[1].getElementsByTagName('span')[0].innerHTML = Json.project[this.index].date;
             aLi2[2].getElementsByTagName('a')[0].innerHTML = Json.project[this.index].link;
-            aLi2[2].getElementsByTagName('a')[0].href = 'http://' + Json.project[this.index].link;
+            aLi2[2].getElementsByTagName('a')[0].href = Json.project[this.index].link;
             aLi2[3].getElementsByTagName('p')[0].innerHTML = Json.project[this.index].detail;
             backBg.style.display = 'block';
 		}

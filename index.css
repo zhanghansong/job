@@ -4,7 +4,7 @@ body,html,ul,li,a,div,p,span,img,h3,h4{margin:0px;padding:0px;font-family:"微�
 	li{list-style:none;}
 	a{text-decoration:none;}
 	body{background:#0a1535 url('img/body1.jpg') no-repeat center top;}
-	#con{width:100%;border:1px solid red;}
+	#con{width:100%;}
 	#nav{width:553px;height:60px;margin:0 auto;background: url('img/topbg.png');}
 	#list{padding:16px 0 0 86px;color: #00ace3;font-size:14px;}
 	#list li{float:left;margin:0 18px;}
@@ -30,9 +30,9 @@ body,html,ul,li,a,div,p,span,img,h3,h4{margin:0px;padding:0px;font-family:"微�
 	#myInfo #infoItem li span{color:#fff;}
 	/*项目经验模块*/
 	#exp{width:810px;margin:0 auto;}
-	#exp .title{width:262px;height:86px;text-align:center;
+	#exp .title,#jobHis .title{width:262px;height:86px;text-align:center;
 	margin:0 auto 27px;background:url("img/title.png") no-repeat center;}
-	#exp .title span{display:block;line-height:86px;height:100%;font-size:24px;
+	#exp .title span,#jobHis .title span{display:block;line-height:86px;height:100%;font-size:24px;
 	color:#fff;text-shadow:0 0 8px #fff;}
 	#exp .box{max-width:100%;text-align:center;}
 	#exp .box .item{display:inline-block;width:176px;height:275px;margin:0 47px;}
@@ -75,22 +75,43 @@ body,html,ul,li,a,div,p,span,img,h3,h4{margin:0px;padding:0px;font-family:"微�
             95% { transform: scale(1.1) rotate(-90deg); }
             100% { transform: scale(1.1) rotate(-30deg); }
         }
-		.box .img .photo{width:160px;height:160px;overflow:hidden;border-radius:50%;margin:8px;background-color:red;position:relative;}
-		.box .img img{width:160px;border:none;}
-		.box .img .shadow {width:160px;height:160px; border-radius:50%;box-shadow:0 0 30px 10px #0bb inset;position:absolute;top:0;opacity:0; transition:all .1s linear;}
-        .box .img:hover .shadow{opacity: 1;}
-		.box .text{width:100%;text-align:center; }
-        .box .text h4{font:18px;color:#fff;}
-        .box .text p{font:14px;color:#00b7ee;}
-		#backBg{width:100%;height:100%;background:rgba(0,0,0,0.6);position:fixed;top:0;display:none;}
-		#backBg .pop-top{width:524px;padding-top:48px;background:url(img/alert1.png) no-repeat right top;margin:10% auto;position:relative;}
-		#backBg .pop-bottom{width:100%;padding-bottom:28px;background:url(img/alert2.png) no-repeat right bottom;}
-		.pop{width:479px;border-left:1px solid #00a9e0;border-right:1px solid #00a9e0;background-color:#1b1325;padding:0 21px 10px 22px;}
-		.pop .close{background:url(img/close.png);position:absolute;top:26px;right:8px;width:14px;height:13px;}
-		.photos{height:90px;overflow: hidden;margin-right:-10px;margin-bottom:10px;}
-		.photos img{width:153px;height:90px;margin-right:10px;display:block;border:none;float:left;}
-		.pop ul{color:#29abe2;}
-		.pop ul li{font-size:14px;}
-		.pop ul li span{color:#fff;font-size:12px;}
-		.pop ul li a{color:#29abe2;text-decoration:underline;}
-		.pop ul li p{color:#fff;font-size:12px;display:inline-block;width:406px;vertical-align: top;}
+	.box .img .photo{width:160px;height:160px;overflow:hidden;border-radius:50%;margin:8px;background-color:red;position:relative;}
+	.box .img img{width:160px;border:none;}
+	.box .img .shadow {width:160px;height:160px; border-radius:50%;box-shadow:0 0 30px 10px #0bb inset;position:absolute;top:0;opacity:0; transition:all .1s linear;}
+    .box .img:hover .shadow{opacity: 1;}
+	.box .text{width:100%;text-align:center; }
+    .box .text h4{font:18px;color:#fff;}
+    .box .text p{font:14px;color:#00b7ee;}
+	#backBg{width:100%;height:100%;background:rgba(0,0,0,0.6);position:fixed;top:0;display:none;}
+	#backBg .pop-top{overflow:hidden;width:524px;padding-top:48px;background:url(img/alert1.png) no-repeat right top;margin:10% auto;position:relative;}
+	#backBg .pop-bottom{width:100%;padding-bottom:28px;background:url(img/alert2.png) no-repeat right bottom;}
+	.pop{width:479px;border-left:1px solid #00a9e0;border-right:1px solid #00a9e0;background-color:#1b1325;padding:0 21px 10px 22px;}
+	.pop .close{background:url(img/close.png);position:absolute;top:26px;right:8px;width:14px;height:13px;}
+	.photos{height:90px;overflow: hidden;margin-right:-10px;margin-bottom:10px;}
+	.photos img{width:153px;height:90px;margin-right:10px;display:block;border:none;float:left;}
+	.pop ul{color:#29abe2;}
+	.pop ul li{font-size:14px;}
+	.pop ul li span{color:#fff;font-size:12px;}
+	.pop ul li a{color:#29abe2;text-decoration:underline;}
+	.pop ul li p{color:#fff;font-size:12px;display:inline-block;width:406px;vertical-align: top;}
+	
+	#jobHis{padding-bottom:50px;}
+	#jobHis .box{width:700px;margin:0 auto;border-top:1px solid #00b7ee;}
+	#jobHis .box .hisList{padding:10px 0;color:#fff;line-height:40px;border-bottom:1px solid #00b7ee;}
+	#jobHis .box p{text-indent:24px;}
+	#jobHis .box p span{color:#00b7ee;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
